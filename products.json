@@ -1,0 +1,29 @@
+[
+  {
+    "productId": 1,
+    "manufacturer": "The Manufacturer A",
+    "sku": "q9L666uh8",
+    "upc": "182736452789",
+    "pricePerUnit": "444.55",
+    "quantityOnHand": 1234,
+    "productName": "lamp"
+  },
+  {
+    "productId": 2,
+    "manufacturer": "The Manufacturer B",
+    "sku": "w9J111uh8",
+    "upc": "182733888889",
+    "pricePerUnit": "222.21",
+    "quantityOnHand": 5599,
+    "productName": "plate"
+  },
+  {
+    "productId": 3,
+    "manufacturer": "The Manufacturer C",
+    "sku": "q9L446ah8",
+    "upc": "182736450000",
+    "pricePerUnit": "300.33",
+    "quantityOnHand": 2987,
+    "productName": "bottle"
+  }
+]

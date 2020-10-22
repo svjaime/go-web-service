@@ -1,10 +1,15 @@
 package main
 
-import "net/http"
+import (
+	"net/http"
+
+	"github.com/svjaime/webapp/product"
+)
+
+const apiBasePath = "/api"
 
 func main() {
-	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		w.Write([]byte("Hello World"))
-	})
+	product.SetupRoutes(apiBasePath)
+
 	http.ListenAndServe(":8000", nil)
 }
