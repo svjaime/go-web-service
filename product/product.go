@@ -1,6 +1,7 @@
+//Package product holds product related information and services
 package product
 
-// Product structure
+// Product basic structure
 type Product struct {
 	ProductID      int    `json:"productID"`
 	Manufacturer   string `json:"manufacturer"`
